@@ -2,9 +2,9 @@ package domain.Order;
 
 import java.util.List;
 
-public interface OrderRepository {
+public interface OrderService {
     // 주문 저장
-    void save(Order order);
+    void order(Order order);
 
     // 주문 조회
     Order fideOne(Long id);
